@@ -8,7 +8,19 @@
   <link rel="stylesheet" href="styles.css" />
   <body>
     <h1>Tic Tae Toe</h1>
-    <div class=".container"></div>
+    <header>
+      <h3 class="player1">Player 1</h3>
+      <button class="start">Start Game</button>
+      <h3 class="player2">Player 2</h3>
+    </header>
+    <div class="container"></div>
+    <dialog class="dialog">
+      <button autofocus class="close">Close</button>
+      <p>Enter players names</p>
+      <input type="text" class="name" placeholder="Player 1" />
+      <input type="text" class="name2" placeholder="Player 2" />
+      <button type="submit" class="submit">Play</button>
+    </dialog>
     <script src="main.js"></script>
   </body>
 </html>
